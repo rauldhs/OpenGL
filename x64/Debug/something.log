@@ -1,10 +1,12 @@
 ﻿  Main.cpp
-C:\Users\User\source\repos\something\Main.cpp(245,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\User\source\repos\something\Main.cpp(247,26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\User\source\repos\something\Main.cpp(303,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\User\source\repos\something\Main.cpp(304,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\User\source\repos\something\Main.cpp(308,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\User\source\repos\something\Main.cpp(309,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\User\source\repos\something\Main.cpp(310,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\User\source\repos\something\Main.cpp(311,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\User\source\repos\something\Main.cpp(48,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\User\source\repos\something\Main.cpp(49,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\User\source\repos\something\Main.cpp(244,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\User\source\repos\something\Main.cpp(246,26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\User\source\repos\something\Main.cpp(301,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\User\source\repos\something\Main.cpp(302,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\User\source\repos\something\Main.cpp(306,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\User\source\repos\something\Main.cpp(307,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\User\source\repos\something\Main.cpp(308,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\User\source\repos\something\Main.cpp(309,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
   something.vcxproj -> C:\Users\User\source\repos\something\x64\Debug\something.exe

@@ -43,15 +43,15 @@ glm::vec3 cameraFront = glm::vec3(0.0f, 0.0f, -1.0f);
 glm::vec3 cameraUp = glm::vec3(0.0f, 1.0f, 0.0f);
 
 bool firstMouse = true;
-float yaw = -90.0f;	// yaw is initialized to -90.0 degrees since a yaw of 0.0 results in a direction vector pointing to the right so we initially rotate a bit to the left.
+float yaw = -90.0f;
 float pitch = 0.0f;
-float lastX = 800.0f / 2.0;
-float lastY = 600.0 / 2.0;
+float lastX = (float)width / 2.0;
+float lastY = (float)height / 2.0;
 float fov = 45.0f;
 
-const float radius = 10.0f;
+
 float cameraSpeed = 2.5f;
-float deltaTime = 0.0f;	// time between current frame and last frame
+float deltaTime = 0.0f;
 float lastFrame = 0.0f;
 
 int main()
@@ -231,7 +231,6 @@ int main()
 
 	glEnable(GL_DEPTH_TEST);
 
-
 	glm::vec3 direction;
 	direction.x = cos(glm::radians(yaw)) * cos(glm::radians(pitch));
 	direction.y = sin(glm::radians(pitch));
@@ -258,7 +257,6 @@ int main()
 
 		glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
 		glClear(GL_COLOR_BUFFER_BIT);
-		glClear(GL_COLOR_BUFFER_BIT);
 		glClear(GL_DEPTH_BUFFER_BIT);
 
 		glActiveTexture(GL_TEXTURE0);
@@ -268,7 +266,7 @@ int main()
 
 		glUseProgram(shaderProgram);
 
-		proj = glm::perspective(glm::radians(45.0f), (float)width / (float)height, 0.1f, 100.0f);
+		proj = glm::perspective(glm::radians(fov), (float)width / (float)height, 0.1f, 100.0f);
 		view = glm::lookAt(cameraPos, cameraPos + cameraFront, cameraUp);
 
 		glUniformMatrix4fv(projLoc, 1, GL_FALSE, glm::value_ptr(proj));

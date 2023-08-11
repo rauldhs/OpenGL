@@ -1,6 +1,6 @@
 # LearnOpenGL Practice Repository
 
-![LearnOpenGL Logo](https://learnopengl.com/img/logos/logo_text.png)
+![OpenGL Logo]([https://learnopengl.com/img/logos/logo_text.png](https://img.shields.io/badge/opengl-3.3-brightgreen?style=for-the-badge&logo=opengl))
 
 Welcome to my personal practice repository for **LearnOpenGL.com**! I am using this repository to follow along with the chapters and tutorials on LearnOpenGL as I enhance my understanding of modern OpenGL programming.
 

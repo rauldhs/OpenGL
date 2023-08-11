@@ -1,4 +1,4 @@
-#LearnOpenGL Practice Repository
+# LearnOpenGL Practice Repository
 Welcome to my personal practice repository for LearnOpenGL.com! I am using this repository to follow along with the chapters and tutorials on LearnOpenGL as I enhance my understanding of modern OpenGL programming.
 
 #About LearnOpenGL
